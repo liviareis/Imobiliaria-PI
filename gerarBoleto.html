@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <style type="text/css">
+		  .forms{
+		   	font-family: arial;
+		   	font-size: 16px;
+			  padding: 20px 0 20px 50px;
+			  cursor: pointer;
+			  color: #fff;
+		  }
+		  #botao{
+		   	padding: 0 0 0 675px;
+		  }
+		  #nome{
+			    padding: 220px 0 20px 50px;
+	    	}
+	  
+		  .cabecalho {
+			  background-color:#fafafa;
+			  color: #FF8C00;
+			  text-transform: uppercase;
+			  text-decoration: none;
+			  border-bottom:3px solid #fafafa;
+			  padding: 0 0 0 20px;
+			  float:left;
+			  margin:0px;
+			  float: left;
+			  width: 99%;
+			  height: 50px;
+			  list-style:none;
+			  font-size: 20px !important;	}
+  </style>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Gerar Boleto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+	<body>
+	  <div id="headerId">
+			  <header>
+				  <div id="menu">
+		        <ul>
+					<li><img src="key1.png" style="width:3%;height:3%;"></li>
+			        <li><a href="">Página Inicial</a></li>
+			        <li><a href="">Espaço do funcionário</a></li>
+		        </ul>
+	        </div>
+			  </header>
+		</div>
+		<div id="corpo">
+	    <body background="background.jpg">
+	  </div>
+		<div class="cabecalho">			
+			<p name = "desc" id = "desc"> Gerar boleto </p>
+		</div>
+		<div id = "nome" class="forms">			
+			<label for = "nome"  > Nome:</label>
+			<input size="105" type = "text" name = "formnome" id = "formnome">
+		</div>
+
+		<div class="forms">			
+			<label for = "cpf" id = "cpf"> CPF:</label>
+			<input size="100" type = "text" name = "formcpf" id = "formcpf">
+		</div>
+		
+		<div class="forms">			
+			<label for = "valor" id = "valor"> Valor:</label>
+			<input size="100" type = "text" name = "formvalor" id = "formvalor">
+		</div>
+		
+		<div id="botao">	
+			<button class="btn" id="botaoadd">Gerar</button>
+	 	</div>
+	</body>
+	
+</html>

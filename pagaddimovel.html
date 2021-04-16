@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<style type="text/css">
+		.forms{
+		 	font-family: arial;
+		 	font-size: 16px;
+			padding: 20px 0 20px 50px;
+			cursor: pointer;
+			color: #fff;
+		}
+		#botao{
+		 	padding: 0 0 0 675px;
+		}
+	
+		.cabecalho {
+			background-color:#fafafa;
+			color: #FF8C00;
+			text-transform: uppercase;
+			text-decoration: none;
+			border-bottom:3px solid #fafafa;
+			padding: 0 0 0 20px;
+			float:left;
+			margin:0px;
+			float: left;
+			width: 99%;
+			height: 50px;
+			list-style:none;
+			font-size: 20px !important;	
+		}
+		#titulo{
+			padding: 220px 0 20px 50px;
+		}
+		#addfotos {
+			position:left;
+			margin: auto;
+			top: 50px; left: 200px; bottom: 200px; right: 200px;
+			font-size: 16px; 
+			border: 4px solid #FF8C00;
+			cursor: pointer;
+			color: #000;
+			background-color: #fff;
+			border-radius: 10px;
+		}
+		#imagem{
+			max-width: 60px;
+			padding: 10px;
+		}
+		#adicionar{
+			padding: 20px 20px 0 300px;
+		}
+
+	</style>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Página Adicionar Imóvel</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+	<body>
+		
+	  <div id="menu">
+		  <ul>
+			  <li><img src="key1.png" style="width:3%;height:3%;"></li>
+			  <li><a href="">Página Inicial</a></li>
+			  <li><a href="">Espaço do funcionário</a></li>
+		  </ul>
+	  </div>
+
+	 	<div id="corpo">
+	    	<body background="background.jpg">
+	    	</body>
+	  </div>
+
+	  <div class="cabecalho">			
+			<p name = "desc" id = "desc"> Adicionar imóvel</p>
+		</div>
+
+		<div id = "titulo" class="forms">			
+			<label for = "titulo"  > Título:</label>
+			<input size="105" type = "text" name = "formtitulo" id = "formtitulo">
+		</div>
+
+		<div class="forms">			
+			<label for = "descricao" id = "descricao"> Descrição:</label>
+			<input size="100" type = "text" name = "formdesc" id = "formdesc">
+		</div>
+
+		<div id="adicionar">
+			<tr>
+				<button id="addfotos">
+				<td><p>Adicione as fotos do imóvel aqui:</p></td>
+				<td><img id="imagem" src="imagem.png"></td>
+			</button>
+	 	</div>
+
+	 	<div id="botao">	
+			<button class="btn" id="botaoadd">Adicionar</button>
+	 	</div>
+
+
+	</body>
+
+</html>

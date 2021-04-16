@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <style type="text/css">
+    #produtos{
+	    width: 60%;
+      display: flex;  
+      flex-wrap: wrap;
+	    padding: 0 230px;
+	    grid-column: 2;
+    }
+
+    .produto {
+	    padding: 30px;
+	    width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin: 50px;
+    }
+    
+    #butonMais{
+      background-color: #FF8C00;
+    }
+   
+  </style>
+  
+	<head>
+		<meta charset="utf-8">
+		<title>Casas anunciadas</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">   
+	</head>
+	
+	<body>
+	  <div id="menu">
+		  <ul>
+		    <li><img src="key1.png" style="width:3%;height:3%;"></li>
+			  <li><a href="">Página Inicial</a></li>
+			  <li><a href="">Imóveis</a></li>
+			  <li><a href="">Pagamento</a></li>
+			  <li><a href="">Contato</a></li>
+		  </ul>
+	  </div>
+	  <div id="corpo">
+	    <body background="background.jpg">
+	  </div>
+	  <section id="produtos">					
+			<div class="produto">
+				<img src="casa1.jpg" alt="Dois dormitórios, três banheiros" style="width:250%;height:250%; border: 3px solid #000000;">
+				<button id="butonMais">Mais Informações</button>
+			</div>
+			<div class="produto">
+				<img src="casashow.png" alt="Dois dormitórios, três banheiros" style="width:250%;height:250%; border: 3px solid #000000;">
+				<button id="butonMais">Mais Informações</button>
+			</div>
+			<div class="produto">
+				<img src="casa3.jpg" alt="Dois dormitórios, três banheiros" style="width:250%;height:250%; border: 3px solid #000000;">
+				<button id="butonMais">Mais Informações</button>
+			</div>
+  </body>
+</html>

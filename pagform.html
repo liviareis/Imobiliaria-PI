@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<style type="text/css">
+		.form{
+			font-family: arial;
+			font-size: 16px;
+			padding: 20px 0 20px 50px;
+			cursor: pointer;
+			color: #fff;}
+		.acao{
+			font-family: arial;
+			font-size: 16px;
+			padding: 150px 20px 20px 50px;
+			cursor: pointer;
+			color: #fff;}
+		#visita{
+			padding: 150px 20px 0 0px;}
+
+	</style>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Página Formulário</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+	<body>
+
+	  	<div id="menu">
+		  <ul>
+			  <li><img src="key1.png" style="width:3%;height:3%;"></li>
+			  <li><a href="">Página Inicial</a></li>
+			  <li><a href="">Imóveis</a></li>
+			  <li><a href="">Pagamento</a></li>
+			  <li><a href="">Contato</a></li>
+		  </ul>
+	  	</div>
+
+	 	<div id="corpo">
+	    	<body background="background.jpg">
+			</body>
+	  	</div>
+
+		<div class="acao">			
+			
+			<input type = "radio" name = "acoes" id = "visita">
+			<label for = "visita"> Agendar visita </label>	
+
+			<input type = "radio" name = "acoes" id = "boleto">
+			<label for = "boleto"> Solicitar Boleto </label>		
+
+			<input type = "radio" name = "acoes" id = "enviarmensagem">
+			<label for = "enviarmensagem"> Enviar mensagem </label>				
+			
+		</div>
+
+		<div class="form">			
+			<label for = "nome" > Nome:</label>
+			<input size="106" type = "text" name = "nome" id = "nome">
+		</div>
+
+		<div class="form">			
+			<label for = "email" > E-mail:</label>
+			<input size="105" type = "text" name = "email" id = "email">
+		</div>
+		
+		<div class="form">			
+			<label for = "mensagem" > Mensagem:</label>
+			<input size="100" type = "text" name = "mensagem" id = "mensagem">
+		</div>
+
+	</body>
+
+</html>
